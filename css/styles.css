@@ -44,6 +44,20 @@ body {
 	font-family: 'Gilroy', sans-serif;
 }
 
+.heading {
+    color: black;
+    font-size: 32;
+	font-family: 'Graphik LCG', sans-serif;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.main_heading{
+    margin: 30px 0 30px 100px;
+    color: black;
+    font-size: 37px;
+    font-family: 'Gilroy', sans-serif;
+}
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -53,9 +67,15 @@ body {
 .return-link{
 	background: url(../images/return.png) no-repeat left center;
 	background-size: 20px;
-	padding-left: 20px;
+    padding-left: 20px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gilroy', sans-serif;
   }
 
+.section {
+    margin-left: 80px;
+}
 .child {
 	display: inline-block;
 	width: 45%;
@@ -70,6 +90,9 @@ body {
     position: absolute;
     right: 20px;
     bottom: 20px;
+    font-size: 56px;
+    font-family: 'Gilroy', sans-serif;
+    opacity: 0.1;
     }
 
 .parent {
